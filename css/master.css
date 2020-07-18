@@ -1,0 +1,51 @@
+ body {
+   margin: 0;
+   text-align: center;
+ }
+
+ section#title {
+   background-color: #13333a;
+   color: #ffff;
+ }
+
+ .logo-image {
+   width: 70%;
+   margin: 0;
+   padding-left: 5%;
+ }
+
+ .btn-outline-light:hover {
+   background-color: #13333a;
+ }
+
+ .navbar-nav {
+   margin-top: 0;
+ }
+
+ .nav-item {
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+
+ .nav-link {
+   color: white;
+ }
+
+ .title-image {
+   width: 100%;
+   padding-right: 10%;
+ }
+
+ .info-header {
+   text-align: left;
+   left: 10%;
+ }
+
+ .selector-for-some-widget {
+   box-sizing: content-box;
+ }
+
+ .container-fluid {
+   left: 10%;
+   right: 10%;
+ }
