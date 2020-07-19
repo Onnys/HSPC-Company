@@ -38,7 +38,18 @@
 
  .info-header {
    text-align: left;
-   left: 10%;
+   padding: 15% 5%;
+   margin: 0;
+
+font-family: 'Red Rose', cursive;
+ }
+
+ .info-header-image {
+   padding-top: 5%;
+ }
+
+ h1 {
+   font-size: 1.9rem;
  }
 
  .selector-for-some-widget {
@@ -46,6 +57,45 @@
  }
 
  .container-fluid {
-   left: 10%;
-   right: 10%;
+   padding: 3% 10%;
+ }
+
+ .navbar-light .navbar-brand {
+   color: #ffff;
+ }
+
+ .navbar-light .navbar-toggler-icon {
+   border-color: #ffff;
+ }
+
+ /* Who we are section */
+ #who-we-are {
+   padding: 10% 7%;
+ }
+
+ .info-who-we-are {
+   text-align: left;
+   padding: 5%;
+   padding-left:10%;
+   padding-right10%;
+   font-family: 'Dosis', sans-serif;
+ }
+
+ /* What we do section  */
+ #what-we-do {
+   padding: 10% 7%;
+   text-align: left;
+   background-color: #dadee5;
+   font-family: 'Dosis', sans-serif;
+ }
+
+ .what-we-do-header {
+   padding-bottom: 5%;
+ }
+
+ /* footes section  */
+ #contact-us {
+   padding: 5%;
+   color: #ffff;
+   background-color: #28535b;
  }

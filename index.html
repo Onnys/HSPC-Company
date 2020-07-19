@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Red+Rose:wght@300;400&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -16,21 +17,21 @@
       <!-- navegation part -->
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#"><img class="logo-image" src="images/hspc-logo.png" alt="Logo image"></a>
+          <a class="navbar-brand" href="#">HSPC</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" style="color:white;" href="#">Quem Somes
+                <a class="nav-link" style="color:white;" href="#who-we-are">Quem Somes
                 </a>
               </li>
-              <li class="nav-item" >
-                <a class="nav-link" style="color:white;" href="#">O que fazemos</a>
+              <li class="nav-item">
+                <a class="nav-link" style="color:white;" href="#what-we-do">O que fazemos</a>
               </li>
               <li class="nav-item">
-                <button type="button" class="btn btn-outline-light">Contact-nos</button>
+              <a href="#contact-us"><button type="button" class="btn btn-outline-light">Contact-nos</button></a>
               </li>
             </ul>
           </div>
@@ -42,9 +43,11 @@
           <div class="col-lg-6 info-header">
             <h1>Trabalho Com Qualidade.</h1>
             <h1>Trabalho Com Amor.</h1>
-            <h6>Combinamos o nosso comprometimento com o bom e velho Trabalho de equipe com vista a trazer maxima qualidade.</h6>
+            <p>Combinamos o nosso comprometimento
+              <br>com o bom e velho Trabalho de equipe
+              <br>com vista a trazer maxima qualidade.</p>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 info-header-image">
             <img class="title-image" src="images/title-image.png" alt="Hardware & Software Sales - The IT Dept">
           </div>
         </div>
@@ -54,29 +57,37 @@
 
     <!-- Who we are section -->
 
-    <section id="who-we-are">
+    <section id="who-we-are" class="container-fluid">
       <h3>Quem Somos</h3>
-      <div class="">
-        <h4>A HSPC e uma empresa que atua no ramo informatico, os principais focos da empresa sao fornecer equipamentos de qualidade e manutencao do mesmos, asegurando o pleno funcionamento</h4>
+      <div class="row info-who-we-are">
+        <div class="col-lg-6">
+          <h5>A HSPC e uma empresa que atua no ramo informatico, os principais focos da empresa sao fornecer equipamentos de qualidade e manutencao do mesmos, asegurando o pleno funcionamento</h5>
+        </div>
+        <div class="col-lg-6">
+          <h5>Encaregamo-nos dos detalhes para que o cliente se foque a 99% no seu principal objectivo. Culitivamos um abiente trabalho amigavel e proativo. A nossa prioridade e vossa satisfacao.
+          </h5>
+        </div>
       </div>
-      <div class="">
-        <h4>Encaregamo-nos dos detalhes para que o cliente se foque a 99% no seu principal objectivo. Culitivamos um abiente trabalho amigavel e proativo. A nossa prioridade e vossa satisfacao.
-        </h4>
-      </div>
+
     </section>
+
     <section id="what-we-do">
-      <h5>O que Fazemos</h5>
-      <div class="">
-        <h2>Fornecemento</h2>
-        <h4>Produtos de alta qualidade com sincerridade nos precos de aquisicao dos nossos Produtos.</h4>
-      </div>
-      <div class="">
-        <h2>Montagem</h2>
-        <h4>Enferimos que o seu equipamento seje bem montado e integrado no seu ambiente de trabalho seguinto padroes do equipamento.</h4>
-      </div>
-      <div class="">
-        <h2>Manutencao</h2>
-        <h4>Aseguramos o pleno funncionamento do seu emquipamento, com a maxima eficiencia possivel.</h4>
+      <div class="container-fluid">
+        <h5 class="what-we-do-header">O que Fazemos</h5>
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>Fornecemento</h3>
+            <h5>Produtos de alta qualidade com sincerridade nos precos de aquisicao dos nossos Produtos.</h5>
+          </div>
+          <div class="col-lg-4">
+            <h3>Montagem</h3>
+            <h5>Enferimos que o seu equipamento seje bem montado e integrado no seu ambiente de trabalho seguinto padroes do equipamento.</h5>
+          </div>
+          <div class="col-lg-4">
+            <h3>Manutencao</h3>
+            <h5>Aseguramos o pleno funncionamento do seu emquipamento, com a maxima eficiencia possivel.</h5>
+          </div>
+        </div>
       </div>
     </section>
 
