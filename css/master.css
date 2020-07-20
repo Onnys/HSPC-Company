@@ -15,14 +15,23 @@
    background-color: #13333a;
    color: #ffff;
  }
-/* Nav Bar section  */
-.navbar-expand-lg {
-  left: 2%;
-}
- .navbar-brand:hover{
+
+ /* Nav Bar section  */
+ .navbar-expand-lg {
+   left: 2%;
+ }
+
+ .navbar-brand:hover {
    color: #ffff;
  }
 
+ .navbar-light .navbar-toggler {
+   color: #ffff;
+   border-color: #ffff;
+ }
+.navbar-light .navbar-toggler-icon{
+  border-color: #ffff;
+}
  .btn-outline-light:hover {
    background-color: #13333a;
  }
