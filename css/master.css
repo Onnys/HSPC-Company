@@ -29,9 +29,11 @@
    color: #ffff;
    border-color: #ffff;
  }
-.navbar-light .navbar-toggler-icon{
-  border-color: #ffff;
-}
+
+ .navbar-light .navbar-toggler-icon {
+   border-color: #ffff;
+ }
+
  .btn-outline-light:hover {
    background-color: #13333a;
  }
