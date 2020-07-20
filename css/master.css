@@ -3,15 +3,24 @@
    text-align: center;
  }
 
+ h1 {
+   font-size: 1.9rem;
+ }
+
+ h3 {
+   font-family: 'Red Rose', cursive;
+ }
+
  section#title {
    background-color: #13333a;
    color: #ffff;
  }
-
- .logo-image {
-   width: 70%;
-   margin: 0;
-   padding-left: 5%;
+/* Nav Bar section  */
+.navbar-expand-lg {
+  left: 2%;
+}
+ .navbar-brand:hover{
+   color: #ffff;
  }
 
  .btn-outline-light:hover {
@@ -20,6 +29,7 @@
 
  .navbar-nav {
    margin-top: 0;
+   left: 5%;
  }
 
  .nav-item {
@@ -32,7 +42,7 @@
  }
 
  .title-image {
-   width: 100%;
+   width: 110%;
    padding-right: 10%;
  }
 
@@ -40,16 +50,11 @@
    text-align: left;
    padding: 15% 5%;
    margin: 0;
-
-font-family: 'Red Rose', cursive;
+   font-family: 'Red Rose', cursive;
  }
 
  .info-header-image {
    padding-top: 5%;
- }
-
- h1 {
-   font-size: 1.9rem;
  }
 
  .selector-for-some-widget {
@@ -57,7 +62,7 @@ font-family: 'Red Rose', cursive;
  }
 
  .container-fluid {
-   padding: 3% 10%;
+   padding: 5% 10%;
  }
 
  .navbar-light .navbar-brand {
@@ -76,7 +81,7 @@ font-family: 'Red Rose', cursive;
  .info-who-we-are {
    text-align: left;
    padding: 5%;
-   padding-left:10%;
+   padding-left: 10%;
    padding-right10%;
    font-family: 'Dosis', sans-serif;
  }
@@ -98,4 +103,10 @@ font-family: 'Red Rose', cursive;
    padding: 5%;
    color: #ffff;
    background-color: #28535b;
+ }
+
+ .social-media {
+   color: #ffff;
+   padding: 10px;
+   font-size: 0.7rem;
  }
