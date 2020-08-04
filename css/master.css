@@ -126,7 +126,9 @@
  }
 
 @media (max-width: 900px) {
-
+.info-header {
+  text-align: center;
+}
   .info-who-we-are {
     text-align: center;
   }
@@ -137,5 +139,9 @@
 }
 col-lg-6{
   padding-bottom: 30px;
+}
+.navbar-toggler-icon{
+  -webkit-filter: invert(200%);
+
 }
 }
