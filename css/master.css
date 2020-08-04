@@ -141,7 +141,7 @@ col-lg-6{
   padding-bottom: 30px;
 }
 .navbar-toggler-icon{
-  -webkit-filter: invert(200%);
+  -webkit-filter: invert(100%);
 
 }
 }
