@@ -10,6 +10,9 @@
  h3 {
    font-family: 'Red Rose', cursive;
  }
+ p {
+   font-size: 1.3rem;
+ }
 
  section#title {
    background-color: #13333a;
@@ -121,3 +124,18 @@
    padding: 10px;
    font-size: 0.7rem;
  }
+
+@media (max-width: 900px) {
+
+  .info-who-we-are {
+    text-align: center;
+  }
+  #what-we-do {
+    text-align: center;
+} .col-lg-4{
+  padding-bottom: 30px;
+}
+col-lg-6{
+  padding-bottom: 30px;
+}
+}
